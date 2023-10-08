@@ -6,7 +6,7 @@ It is one of the best nvim configs in web because:
   - javascript
   - typescript
 - it has distributed code structure
-- you could apply it for nvim (whole repo) and for vim (only 'settings' folder)
+- you could apply it for nvim (whole repo) and for vim (configs in 'settings' folder)
 
 # How to use
 ## For Nvim
