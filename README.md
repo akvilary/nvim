@@ -10,7 +10,7 @@ It is one of the best nvim configs in web because:
 
 # How to use
 ## For Nvim
-1. Install llvm to compile tree-sitter configurations of languages:
+1. Install llvm to let nvim to compile tree-sitter configurations of languages:
   - For example: https://formulae.brew.sh/formula/llvm
 2. Set following enviroment variables:
   - Host to publish markdown in realtime editing
