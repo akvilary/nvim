@@ -24,7 +24,7 @@ It is one of the best nvim configs in web because:
   - REPOS_DIR. For example: "/home/the_user/repos/"
   - REPOS_DIR_REL. For example: "/repos/"
 
-2. Put repo content to ~/.config/nvim/
+3. Put repo content to ~/.config/nvim/
 
 # Structure
 - lua/modules - contains all configs for installed plugins in lua language
