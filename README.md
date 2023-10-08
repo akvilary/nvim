@@ -1,5 +1,5 @@
 # About
-It is one of the best nvim configs because:
+It is one of the best nvim configs in web because:
 - it is prepared for four languages:
   - python
   - golang
