@@ -9,6 +9,7 @@ It is one of the best nvim configs in web because:
 - you could apply it for nvim (whole repo) and for vim (only 'settings' folder)
 
 # How to use
+## For Nvim
 Put repo content to ~/.config/nvim/
 
 # Structure
