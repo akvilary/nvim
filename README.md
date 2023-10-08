@@ -1,3 +1,13 @@
+# About
+It is one of the best nvim configs because:
+- it is prepared for four languages:
+  - python
+  - golang
+  - javascript
+  - typescript
+- it has distributed code structure
+- you could apply it for nvim (whole repo) and for vim (only 'settings' folder)
+
 # How to use
 Put repo content to ~/.config/nvim/
 
