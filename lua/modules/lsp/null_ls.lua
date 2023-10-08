@@ -11,19 +11,28 @@ local diagnostics = null_ls.builtins.diagnostics
 null_ls.setup({
   debug = false,
   sources = {
+    -- python
     diagnostics.pylint.with({
       extra_args = {
         "--disable", "import-error"
       }
     }),
-    diagnostics.revive,
-    diagnostics.standardjs,
-    diagnostics.ts_standard,
     formatting.blue.with({ extra_args = { "--line-length=100" } }),
+
+    -- go
+    diagnostics.revive,
     formatting.goimports,
     formatting.gofumpt,
+
+    -- javascript
+    diagnostics.standardjs,
     formatting.standardjs,
+
+    -- typescript
+    diagnostics.ts_standard,
     formatting.ts_standard,
+
+    -- json/html/css
     formatting.prettier.with({
       filetypes = { "html", "css", "json" },
     }),
