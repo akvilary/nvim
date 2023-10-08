@@ -17,8 +17,8 @@ It is one of the best nvim configs in web because:
       - MARKDOWN_SERVER_HOST. For example: "127.0.0.1".
       - MARKDOWN_SERVER_PORT. For example: 7576.
   - Host to publish debug event.
-      - NVIM_HOST. For example: "125.125.126.01"
-      - NVIM_PORT. For example: 7337.
+      - NVIM_DEBUG_HOST. For example: "125.125.126.01"
+      - NVIM_DEBUG_PORT. For example: 7337.
 
   - NVIM_PYTHON. For example: "/opt/python/python3.11"
   - REPOS_DIR. For example: "/home/the_user/repos/"
