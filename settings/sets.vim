@@ -43,7 +43,7 @@ set autoindent
 set smartindent
 
 autocmd FileType python setlocal tabstop=4 softtabstop=4 colorcolumn=100
-autocmd FileType go setlocal tabstop=4 softtabstop=0 noexpandtab
+autocmd FileType go setlocal tabstop=2 softtabstop=0 noexpandtab
 
 set ruler
 set number
