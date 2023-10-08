@@ -1,1 +1,1 @@
-Put 'nvim' folder content to ~/.config/nvim/
+Put repo content to ~/.config/nvim/
