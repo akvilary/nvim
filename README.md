@@ -20,7 +20,7 @@ It is one of the best nvim configs in web because:
       - NVIM_DEBUG_HOST. For example: "125.125.126.01"
       - NVIM_DEBUG_PORT. For example: 7337.
 
-  - NVIM_PYTHON. For example: "/opt/python/python3.11"
+  - NVIM_PYTHON. For example: "/usr/bin/python3.11"
   - REPOS_DIR. For example: "/home/the_user/repos/"
   - REPOS_DIR_REL. For example: "/repos/"
 
