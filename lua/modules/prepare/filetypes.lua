@@ -1,0 +1,6 @@
+-- -- add custom filetypes here
+-- vim.filetype.add({
+--   extension = {
+--     pysql = 'python',
+--   },
+-- })

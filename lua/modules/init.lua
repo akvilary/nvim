@@ -1,0 +1,20 @@
+-- DECLARE MODULES WILL BE ON (at every start of neovim)
+-- required preparations
+require('modules.prepare')
+
+-- plugin's setups
+require('modules.nvim_web_devicons')
+require('modules.osc_yank')
+require('modules.lsp')
+require('modules.treessiter')
+require('modules.dap')
+require('modules.telescope')
+require("modules.nvim_tree")
+require('modules.project')
+require('nvim_comment').setup()
+require('nvim-autopairs').setup()
+require('toggleterm').setup()
+require('modules.git')
+require('modules.lualine')
+require('modules.find_and_replace')
+require('modules.external_tools')
