@@ -17,7 +17,7 @@ It is one of the best nvim configs in web because:
       - MARKDOWN_SERVER_HOST. Usually it is localhost. For example: "127.0.0.1".
       - MARKDOWN_SERVER_PORT. For example: 7576.
   - Host to publish debug event.
-      - NVIM_DEBUG_HOST. Usually it is your IP address. For example: "125.125.126.01"
+      - NVIM_DEBUG_HOST. Usually it is your IP address (if you debug in docker container) or localhost. For example: "125.125.126.01"
       - NVIM_DEBUG_PORT. For example: 7337.
 
   - NVIM_PYTHON. For example: "/usr/bin/python3.11"
