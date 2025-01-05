@@ -11,6 +11,8 @@ local servers = {
     "lua_ls",
     "gopls",
     "tsserver",
+    "rust_analyzer",
+    "jsonls",
 }
 
 mason_lspconfig.setup({

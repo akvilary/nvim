@@ -24,6 +24,10 @@ null_ls.setup({
     formatting.goimports,
     formatting.gofumpt,
 
+    -- rust
+    diagnostics.rust_analyzer,
+    formatting.rustfmt,
+
     -- javascript
     diagnostics.standardjs,
     formatting.standardjs,
@@ -33,7 +37,7 @@ null_ls.setup({
     formatting.ts_standard,
 
     -- json/html/css
-    formatting.prettier.with({
+    formatting.prettierd.with({
       filetypes = { "html", "css", "json" },
     }),
   },

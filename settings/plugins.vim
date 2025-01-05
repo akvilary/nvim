@@ -7,7 +7,7 @@ call plug#begin()
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 " Telescope plugins
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'nvim-telescope/telescope-project.nvim'
 
@@ -66,6 +66,9 @@ Plug 'akinsho/git-conflict.nvim', {'tag': '*'}
 
 " Markdown
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 'markdown' }
+
+" Annotations
+Plug 'danymat/neogen'
 
 call plug#end()
 
